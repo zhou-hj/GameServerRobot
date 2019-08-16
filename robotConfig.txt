@@ -1,0 +1,19 @@
+#机器人参数配置，该配置给测试人员外用的
+
+#机器人类型1-登录机器人
+robot_type = 1
+
+#机器人账号起始id
+account_start = 1
+
+#机器人数量
+robot_num = 2
+
+#服务器id
+server_id = 32
+
+#服务器ip
+server_ip = 192.168.16.239
+
+#服务器端口
+server_port = 33211

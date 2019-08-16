@@ -1,0 +1,131 @@
+[QC2019-08-13 22:18:37] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 22:18:54] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2372] connected
+[QC2019-08-13 22:18:54] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2373] connected
+[QC2019-08-13 22:22:04] INFO [nioEventLoopGroup-3-3] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2436] connected
+[QC2019-08-13 22:22:04] INFO [nioEventLoopGroup-3-4] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2437] connected
+[QC2019-08-13 22:44:56] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 22:45:18] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2719] connected
+[QC2019-08-13 22:45:18] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2720] connected
+[QC2019-08-13 22:58:29] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 22:58:49] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2820] connected
+[QC2019-08-13 22:58:49] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2821] connected
+[QC2019-08-13 22:58:49] ERROR [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.exceptionCaught(69) | handle packet from [005056fffec00008-000020bc-00000002-840a15ef8c3d21e3-0d4e021f] failed!
+java.lang.NumberFormatException: For input string: "005056fffec00008-000020bc-00000002-840a15ef8c3d21e3-0d4e021f"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Long.parseLong(Unknown Source)
+	at java.lang.Long.valueOf(Unknown Source)
+	at cn.xiaosheng996.NettyProtobufWebsocketServer.ProtoManager.LoginResp(ProtoManager.java:116)
+	at cn.xiaosheng996.NettyProtobufWebsocketServer.ProtoManager.handleProto(ProtoManager.java:76)
+	at cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelRead(ServerHandler.java:42)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at cn.xiaosheng996.NettyProtobufWebsocketServer.ProtoDecoder.channelRead(ProtoDecoder.java:76)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:159)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-13 22:58:49] ERROR [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.exceptionCaught(69) | handle packet from [005056fffec00008-000020bc-00000001-b51836318c3d2179-2e0b070f] failed!
+java.lang.NumberFormatException: For input string: "005056fffec00008-000020bc-00000001-b51836318c3d2179-2e0b070f"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Long.parseLong(Unknown Source)
+	at java.lang.Long.valueOf(Unknown Source)
+	at cn.xiaosheng996.NettyProtobufWebsocketServer.ProtoManager.LoginResp(ProtoManager.java:116)
+	at cn.xiaosheng996.NettyProtobufWebsocketServer.ProtoManager.handleProto(ProtoManager.java:76)
+	at cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelRead(ServerHandler.java:42)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at cn.xiaosheng996.NettyProtobufWebsocketServer.ProtoDecoder.channelRead(ProtoDecoder.java:76)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:159)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-13 23:02:25] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 23:02:32] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2905] connected
+[QC2019-08-13 23:02:32] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:2906] connected
+[QC2019-08-13 23:08:33] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 23:08:48] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3016] connected
+[QC2019-08-13 23:08:48] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3018] connected
+[QC2019-08-13 23:16:56] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 23:17:04] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3162] connected
+[QC2019-08-13 23:17:04] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3163] connected
+[QC2019-08-13 23:48:41] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 23:48:57] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3351] connected
+[QC2019-08-13 23:48:57] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3352] connected
+[QC2019-08-13 23:52:08] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 23:52:19] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3438] connected
+[QC2019-08-13 23:52:19] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3439] connected
+[QC2019-08-13 23:53:50] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-13 23:54:14] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3521] connected
+[QC2019-08-13 23:54:14] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.4:3522] connected

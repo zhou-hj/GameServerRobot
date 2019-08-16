@@ -1,0 +1,66 @@
+[QC2019-08-12 22:57:42] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 22:57:42 CST 2019]; root of context hierarchy
+[QC2019-08-12 22:57:42] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 22:57:42] ERROR [main] cn.xiaosheng996.gameserverrobot.Bootstrap.main(47) | 机器人服务启动失败...
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at cn.xiaosheng996.gameserverrobot.Bootstrap.main(Bootstrap.java:29)
+[QC2019-08-12 22:59:45] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 22:59:45 CST 2019]; root of context hierarchy
+[QC2019-08-12 22:59:45] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 22:59:46] ERROR [main] cn.xiaosheng996.gameserverrobot.Bootstrap.main(47) | 机器人服务启动失败...
+java.io.FileNotFoundException: null\config\server.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at cn.xiaosheng996.gameserverrobot.Bootstrap.main(Bootstrap.java:38)
+[QC2019-08-12 23:01:31] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:01:31 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:01:31] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 23:03:29] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:03:29 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:03:29] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 23:06:10] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:06:10 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:06:10] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 23:08:08] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:08:08 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:08:08] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 23:12:12] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:12:12 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:12:12] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 23:15:13] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:15:13 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:15:13] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 23:16:12] WARN [nioEventLoopGroup-2-1] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-12 23:16:12] WARN [nioEventLoopGroup-2-2] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-12 23:17:55] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:17:55 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:17:55] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 23:21:55] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:21:55 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:21:55] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-12 23:24:15] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Mon Aug 12 23:24:15 CST 2019]; root of context hierarchy
+[QC2019-08-12 23:24:15] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]

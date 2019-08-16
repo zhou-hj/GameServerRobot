@@ -1,0 +1,17 @@
+[QC2019-08-12 23:05:54] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-12 23:07:44] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-12 23:07:59] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-12 23:08:08] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:3726] connected
+[QC2019-08-12 23:08:08] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:3727] connected
+[QC2019-08-12 23:12:12] INFO [nioEventLoopGroup-3-3] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:3788] connected
+[QC2019-08-12 23:12:12] INFO [nioEventLoopGroup-3-4] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:3789] connected
+[QC2019-08-12 23:15:14] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:3830] connected
+[QC2019-08-12 23:15:14] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:3831] connected
+[QC2019-08-12 23:17:47] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-12 23:17:56] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:3932] connected
+[QC2019-08-12 23:17:56] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:3933] connected
+[QC2019-08-12 23:21:38] INFO [main] cn.xiaosheng996.NettyProtobufWebsocketServer.NettyWebsocketServer.start(65) | Netty Tcp Server started..
+[QC2019-08-12 23:21:55] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:4013] connected
+[QC2019-08-12 23:21:56] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:4014] connected
+[QC2019-08-12 23:24:16] INFO [nioEventLoopGroup-3-3] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:4053] connected
+[QC2019-08-12 23:24:16] INFO [nioEventLoopGroup-3-4] cn.xiaosheng996.NettyProtobufWebsocketServer.ServerHandler.channelActive(32) | [/192.168.1.2:4054] connected

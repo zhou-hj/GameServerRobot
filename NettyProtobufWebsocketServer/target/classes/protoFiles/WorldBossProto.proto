@@ -1,0 +1,24 @@
+package protoFiles;
+
+option java_package = "proto";
+option java_outer_classname = "WorldBossProto";
+
+import "RoleProto.proto";
+
+//请求攻打世界boss
+message AttackBossReq_1002001{
+	
+}
+message AttackBossResp_1002001{
+	optional int64 leftHP = 1;//剩余血量
+	optional int64 hurt = 2;//累积伤害总量
+}
+
+//请求伤害领奖
+message HurtAwardReq_1002002{
+	
+}
+message HurtAwardResp_1002002{
+	repeated int32 ids = 1;//已领奖项
+	repeated Item items = 2;//奖励物品
+}

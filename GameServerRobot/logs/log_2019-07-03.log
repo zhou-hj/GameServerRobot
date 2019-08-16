@@ -1,0 +1,14 @@
+[QC2019-07-03 11:20:28] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bd8db5a: startup date [Wed Jul 03 11:20:28 CST 2019]; root of context hierarchy
+[QC2019-07-03 11:20:28] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-07-03 11:20:28] INFO [Thread-0] org.springframework.context.support.AbstractApplicationContext.doClose(989) | Closing org.springframework.context.support.ClassPathXmlApplicationContext@bd8db5a: startup date [Wed Jul 03 11:20:28 CST 2019]; root of context hierarchy
+[QC2019-07-03 17:35:57] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a30d1e6: startup date [Wed Jul 03 17:35:57 CST 2019]; root of context hierarchy
+[QC2019-07-03 17:35:57] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-07-03 17:35:57] ERROR [main] com.yaowan.game.xykp.robot.Bootstrap.main(35) | 机器人服务启动失败...
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.yaowan.game.xykp.robot.Bootstrap.main(Bootstrap.java:23)
+[QC2019-07-03 17:38:18] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a30d1e6: startup date [Wed Jul 03 17:38:18 CST 2019]; root of context hierarchy
+[QC2019-07-03 17:38:18] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-07-03 17:38:18] INFO [Thread-0] org.springframework.context.support.AbstractApplicationContext.doClose(989) | Closing org.springframework.context.support.ClassPathXmlApplicationContext@7a30d1e6: startup date [Wed Jul 03 17:38:18 CST 2019]; root of context hierarchy
+[QC2019-07-03 17:38:30] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a30d1e6: startup date [Wed Jul 03 17:38:30 CST 2019]; root of context hierarchy
+[QC2019-07-03 17:38:30] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-07-03 17:39:39] INFO [Thread-0] org.springframework.context.support.AbstractApplicationContext.doClose(989) | Closing org.springframework.context.support.ClassPathXmlApplicationContext@7a30d1e6: startup date [Wed Jul 03 17:38:30 CST 2019]; root of context hierarchy

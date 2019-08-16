@@ -1,0 +1,174 @@
+[QC2019-08-14 00:25:25] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Wed Aug 14 00:25:25 CST 2019]; root of context hierarchy
+[QC2019-08-14 00:25:25] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 00:25:54] WARN [nioEventLoopGroup-2-2] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-14 00:25:54] WARN [nioEventLoopGroup-2-1] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-14 00:26:43] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Wed Aug 14 00:26:43 CST 2019]; root of context hierarchy
+[QC2019-08-14 00:26:43] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 00:27:00] WARN [nioEventLoopGroup-2-8] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-14 00:27:00] WARN [nioEventLoopGroup-2-9] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-14 23:12:38] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Wed Aug 14 23:12:38 CST 2019]; root of context hierarchy
+[QC2019-08-14 23:12:38] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 23:36:37] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Wed Aug 14 23:36:37 CST 2019]; root of context hierarchy
+[QC2019-08-14 23:36:37] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 23:36:47] WARN [nioEventLoopGroup-2-5] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-14 23:36:48] ERROR [Thread-2] cn.xiaosheng996.gameserverrobot.robotManager.RobotMgr.connect(288) | 连接失败:
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.1.4:38996
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:627)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-14 23:37:40] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Wed Aug 14 23:37:40 CST 2019]; root of context hierarchy
+[QC2019-08-14 23:37:40] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 23:37:40] ERROR [main] cn.xiaosheng996.gameserverrobot.Bootstrap.main(50) | 机器人服务启动失败...
+java.lang.ArithmeticException: / by zero
+	at cn.xiaosheng996.gameserverrobot.robotManager.RobotMgr.initRobotThreads(RobotMgr.java:179)
+	at cn.xiaosheng996.gameserverrobot.robotManager.RobotMgr.start(RobotMgr.java:166)
+	at cn.xiaosheng996.gameserverrobot.Bootstrap.main(Bootstrap.java:48)
+[QC2019-08-14 23:38:16] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Wed Aug 14 23:38:16 CST 2019]; root of context hierarchy
+[QC2019-08-14 23:38:16] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 23:38:16] ERROR [main] cn.xiaosheng996.gameserverrobot.Bootstrap.main(50) | 机器人服务启动失败...
+java.lang.ArithmeticException: / by zero
+	at cn.xiaosheng996.gameserverrobot.robotManager.RobotMgr.initRobotThreads(RobotMgr.java:179)
+	at cn.xiaosheng996.gameserverrobot.robotManager.RobotMgr.start(RobotMgr.java:166)
+	at cn.xiaosheng996.gameserverrobot.Bootstrap.main(Bootstrap.java:48)
+[QC2019-08-14 23:38:52] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Wed Aug 14 23:38:52 CST 2019]; root of context hierarchy
+[QC2019-08-14 23:38:52] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 23:39:24] ERROR [main] cn.xiaosheng996.gameserverrobot.Bootstrap.main(50) | 机器人服务启动失败...
+java.lang.ArithmeticException: / by zero
+	at cn.xiaosheng996.gameserverrobot.robotManager.RobotMgr.initRobotThreads(RobotMgr.java:179)
+	at cn.xiaosheng996.gameserverrobot.robotManager.RobotMgr.start(RobotMgr.java:166)
+	at cn.xiaosheng996.gameserverrobot.Bootstrap.main(Bootstrap.java:48)
+[QC2019-08-14 23:39:45] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Wed Aug 14 23:39:45 CST 2019]; root of context hierarchy
+[QC2019-08-14 23:39:45] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 23:41:30] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Wed Aug 14 23:41:30 CST 2019]; root of context hierarchy
+[QC2019-08-14 23:41:30] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 23:47:15] INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(589) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b9651f3: startup date [Wed Aug 14 23:47:15 CST 2019]; root of context hierarchy
+[QC2019-08-14 23:47:15] INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(316) | Loading XML bean definitions from class path resource [application.xml]
+[QC2019-08-14 23:47:55] WARN [nioEventLoopGroup-2-2] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2019-08-14 23:47:55] WARN [nioEventLoopGroup-2-1] io.netty.util.internal.logging.Slf4JLogger.warn(151) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
